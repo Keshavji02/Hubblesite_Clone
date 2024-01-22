@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:active {
+    background: none;
+}
+
+img {
+	border: none;
+}
+
+
+
+/* -----------------------------------fonts----------------------------------------  */
+
+@font-face {
+	font-family: 'audiowide-regular-webfont';
+	src: url('../fonts/audiowide-regular-webfont.eot');
+	src: url('../fonts/audiowide-regular-webfont.woff') format('woff'), url('../fonts/audiowide-regular-webfont.ttf') format('truetype'), url('../fonts/audiowide-regular-webfont.svg') format('svg');
+}
+
+/* -------------------------------------heder-style --------------------------------- */
+
+.header {
+    height: 3.75rem;
+    background: rgba(0, 0, 0, .5);
+}
+
+.container-main {
+    background-image: url(../img/bg-home-page.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: center;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+}
+
+.logobox, .navigationbox {
+    height: 3.75rem;
+} 
+
+.navigationbox .navbardesign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#navdesign li {
+    margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+#navdesign li a {
+    padding: 0 24px;
+    line-height: 59px;
+    font-size: 1vw;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#navdesign li a:hover {
+    background-color: #620031;
+	color: #ffffff;
+}
+
+#navdesign .selpage a {
+    background-color: #000000;
+	color: #a3a3a3;
+}
+
+
+/*----------------------------------- home style ------------------------------------------ */
+
+.main-section {
+    height: 43.75rem;
+    margin: 0;
+    padding: 0;
+	max-width: 100%;
+}
+
+.home-img, .home-heading {
+    height: 25rem;
+}
+
+.home-img {
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+
+.home-heading {
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+   text-transform: uppercase;
+}
+
+.home-heading h1{
+    font-size: 3vw;
+}
+
+.home-heading h3 {
+    font-size: 1.2vw;
+}
+
+.cusbtn {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: 40px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.cusbtn:hover {
+    background-color: red;
+}
+
+.img-box { 
+    height: 18.75rem;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.img-box-heading {
+    height: 3.75rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-heading h1 {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.img-box-img {
+    height: 15rem;
+    margin: 0;
+    padding: 0;
+}
+
+.imgs {
+    display: flex;
+}
+.imgs .image {
+    height: 15rem;
+    width: 21.875rem;
+}
+
+.img1 {
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    transition: .5s;
+}
+
+.img2 {
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    transition: .5s;
+}
+
+.img3 {
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    transition: .5s;
+}
+
+.img4 {
+    background-image: url(../img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    transition: .5s;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover {
+    opacity: .5;
+    background-size: 130%;
+}
+
+
+/* ------------------------------mission----------------------- */
+
+.mission {
+    height: 12.5rem;
+    background-color: #630031;
+}
+
+.mission-text {
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.mission-text h1 {
+    font-size: 2.5vw;
+}
+
+.mission-text p {
+    font-size: 1.2vw;
+}
+
+
+/* ---------------------------latest news ---------------------------  */
+
+.latest-news {
+    height: 31.25rem;
+    background-color: #000000;
+}
+
+.featured-video, .latest-blog {
+    height: 31.25rem;
+}
+
+.heading {
+    height: 6.25rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 2.4vw;
+}
+
+.box1 {
+    height: 21.875rem;
+    width: 34.375rem;
+    background-image: url(../img/mars-rover.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.blogbox1, .blogbox2 {
+    height: 10.9375rem;
+    width: 34.375rem;
+}
+
+.blogbox1 {
+    border-bottom: 1px solid white;
+}
+
+.contant {
+    display: flex;
+    color: white;
+}
+
+.contact-text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text h2 {
+    font-size: 1.3vw;
+}
+
+.contact-text p {
+    font-size: .9vw;
+}
+
+.blogbox2  {
+    border-top: 1px solid white;
+}
+
+.text2 {
+    margin-top: 50px;
+}
+
+#btn1 {
+    position: relative;
+    top: 90px;
+    height: 2.5rem;
+    width: 9.375rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #3c0f38;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#btn1:hover {
+    background-color: #1d061b;
+}
+/* ------------------------- footer srction-------------------------- */
+
+.footer1, .footer2 {
+    height: 6.25rem;
+}
+
+.footer1 {
+    background-color: #a3a3a3;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxicon {
+    margin-left: 60px;
+}
+
+.boxicon a{
+    font-size: 2.5vw;
+    margin-left: 10px;
+    color: white;
+}
+
+.footer2 {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

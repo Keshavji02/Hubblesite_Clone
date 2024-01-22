@@ -1,0 +1,33 @@
+@media screen and (max-width: 1366px) {
+
+    .home-img {
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        z-index: 1;
+    }
+
+    .home-img img {
+        width: 450px;
+    }
+    .mission {
+        position: relative;
+        top: -27px;
+    }
+
+    .latest-news, .footer1, .footer2 {
+        position: relative;
+        top: -27px;
+    }
+
+    .footer2{
+        height: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer2 p {
+        position: relative;
+        top: 20px;
+    }
+  }

@@ -1,0 +1,14 @@
+@media screen and (max-width: 360px) {
+    
+    .logobox img {
+        width: 200px;
+    }
+
+    .home-img img {
+        width: 320px;
+        position: relative;
+        left: -180px;
+        top: -20px;
+    }
+
+}
